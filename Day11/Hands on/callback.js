@@ -23,6 +23,8 @@ const getDetailUserAddress = (city, province, callback) => {
   }, 3000);
 };
 
+
+// call back hell yang harus dihindari
 login((dataUser) => {
   console.log("get data province " + dataUser.province);
 
